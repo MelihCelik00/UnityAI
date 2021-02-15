@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Moving1\Scripts\Move.cs" />
+     <Compile Include="Assets\Moving1\Scripts\MoveToGoal.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/melihsafacelik/Projects/GameAI/UnityAI/GameAI/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
