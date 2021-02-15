@@ -9,10 +9,6 @@ public class MoveToGoal : MonoBehaviour
    public Transform goal;
    public float accuracy;
 
-   private void Start()
-   {
-   }
-
    private void LateUpdate()
    {
       this.transform.LookAt(goal.position);
