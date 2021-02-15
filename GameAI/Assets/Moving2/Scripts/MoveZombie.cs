@@ -16,9 +16,9 @@ public class MoveZombie : MonoBehaviour
         Vector3 direction = lookAtGoal - this.transform.position;
         
         this.transform.rotation = Quaternion.Slerp(this.transform.rotation,Quaternion.LookRotation(direction), Time.deltaTime*rotSpeed);
-        if (Vector3.Distance(this.transform.position, lookAtGoal) > accuracy)
-        {
-            this.transform.Translate(0, 0, speed * Time.deltaTime);
-        }
+        // comment below if you are up to apply root motion from Inspector TAB. 
+        //if (Vector3.Distance(this.transform.position, lookAtGoal) > accuracy)
+            //this.transform.Translate(0, 0, speed * Time.deltaTime);
+        
     }
 }
